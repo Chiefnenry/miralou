@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Miralou Cosmetic Website Project Documentation
 
-## Getting Started
+Project Overview
+The Cosmetic Website project is designed to offer clients a seamless experience in browsing and purchasing cosmetic products. Through this platform, users can explore various cosmetic items, add them to their cart, and proceed with the checkout process. The project leverages Next.js, Tailwind CSS, Material UI, and TypeScript to ensure a smooth and responsive user interface.
 
-First, run the development server:
+Technologies Utilized
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Next.js: A React framework for developing server-side rendered and static web applications.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Tailwind CSS: A utility-first CSS framework facilitating rapid custom design development.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Material UI: A React UI framework implementing Google's Material Design principles.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- TypeScript: A statically typed superset of JavaScript enhancing code quality and developer productivity.
 
-## Learn More
+Key Features
+1.Product Catalog: Users can effortlessly browse a diverse range of cosmetic products categorized by type, brand, or other criteria.
 
-To learn more about Next.js, take a look at the following resources:
+2.Product Details: Comprehensive information about each product including description, price, and available variants.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Shopping Cart: Convenient functionality allowing users to add products to their cart, review items, adjust quantities, and remove products as needed.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3.Checkout Process: Streamlined checkout process offering options for entering shipping details, selecting payment methods, and finalizing orders.
 
-## Deploy on Vercel
+4.User Authentication: Robust user authentication system enabling user registration, login, and account management securely.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+6. Responsive Design: Ensures optimal viewing and interaction experience across various devices and screen sizes.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Installation Guide
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+
+   git clone <repository-url>
+
+2. Install dependencies:
+
+   npm install
+
+3. Run the development server:
+
+   npm run dev
+
+4. Open your preferred browser and navigate to http://localhost:3000 to access the website.
+
+Usage Instructions
+
+1.Browsing Products: Navigate through different categories and explore the diverse range of cosmetic products available.
+
+2.Adding to Cart: Click on desired products to view details and seamlessly add them to your cart, specifying quantities as needed.
+3.Viewing Cart: Access the shopping cart to review added items, adjust quantities, or remove products prior to checkout.
+
+4.Checkout Process: Proceed through the checkout process by entering shipping details, selecting payment methods, and confirming orders.
+
+Contribution Guidelines
+Contributions to the project are encouraged. Follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Implement your changes and commit them with clear, descriptive messages.
+4. Push your changes to your fork.
+5. Submit a pull request outlining the changes made and the problem addressed.
+
+License Information
+This project is licensed under the [MIT License](LICENSE).
+
+Credits and Contact Information
+
+- Project Lead: CHARLES OMOSEGBON
+
+- Development Team:
+  ADEMOLA TAIWO
+  ABOLAJI OLUWASEGUN
+  BLESSING FAMUTI
+
+- For inquiries or support, please contact charlesthetechguy@hotmail.com.

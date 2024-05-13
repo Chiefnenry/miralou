@@ -12,7 +12,7 @@ import {
   DocumentHeadTagsProps,
   documentGetInitialProps,
 } from "@mui/material-nextjs/v14-pagesRouter";
-import theme, { roboto } from "../../theme";
+import theme, { roboto } from "../../components/theme";
 
 export default function MyDocument(
   props: DocumentProps & DocumentHeadTagsProps
