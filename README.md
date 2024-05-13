@@ -24,7 +24,7 @@ Key Features
 
 5.User Authentication: Robust user authentication system enabling user registration, login, and account management securely.
 
-6. Responsive Design: Ensures optimal viewing and interaction experience across various devices and screen sizes.
+6.Responsive Design: Ensures optimal viewing and interaction experience across various devices and screen sizes.
 
 Installation Guide
 
@@ -49,6 +49,7 @@ Usage Instructions
 1.Browsing Products: Navigate through different categories and explore the diverse range of cosmetic products available.
 
 2.Adding to Cart: Click on desired products to view details and seamlessly add them to your cart, specifying quantities as needed.
+
 3.Viewing Cart: Access the shopping cart to review added items, adjust quantities, or remove products prior to checkout.
 
 4.Checkout Process: Proceed through the checkout process by entering shipping details, selecting payment methods, and confirming orders.
