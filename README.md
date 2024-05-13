@@ -20,9 +20,9 @@ Key Features
 
 3. Shopping Cart: Convenient functionality allowing users to add products to their cart, review items, adjust quantities, and remove products as needed.
 
-3.Checkout Process: Streamlined checkout process offering options for entering shipping details, selecting payment methods, and finalizing orders.
+4.Checkout Process: Streamlined checkout process offering options for entering shipping details, selecting payment methods, and finalizing orders.
 
-4.User Authentication: Robust user authentication system enabling user registration, login, and account management securely.
+5.User Authentication: Robust user authentication system enabling user registration, login, and account management securely.
 
 6. Responsive Design: Ensures optimal viewing and interaction experience across various devices and screen sizes.
 
