@@ -1,3 +1,4 @@
+import { Heebo, Roboto_Slab } from "next/font/google";
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -8,6 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        Roboto_Slab: ["Roboto Slab", "serif"],
+        Heebo: ["Heebo", "sans - serif"],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
