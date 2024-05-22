@@ -1,24 +1,53 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faMagnifyingGlass,
-  faHeart,
-  faCartShopping,
-} from "@fortawesome/free-solid-svg-icons";
+import { Typography } from "@mui/material";
+import SearchIcon from "@mui/icons-material/Search";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import MenuOpenIcon from "@mui/icons-material/MenuOpen";
+import CloseIcon from "@mui/icons-material/Close";
 
 const Navbar = () => {
+  const [isOpenNavbar, setisOpenNavbar] = useState(false);
+
+  const toggleNavbar = () => {
+    setisOpenNavbar(!isOpenNavbar);
+  };
+
   return (
     <>
-      <div className="container mx-auto max-w-4xl pt-4">
-        <nav className="flex justify-between">
-          <div>
-            <h1 className="font-bold font-Roboto_Slab text-2xl text-black">
+      <div className="container md:mx-auto md:max-w-4xl pt-4">
+        <nav className="flex justify-between items-center">
+          {/* left side for mobile view */}
+          <div className="flex items-center md:hidden">
+            <button onClick={toggleNavbar} className="mr-2 ml-4">
+              {isOpenNavbar ? <CloseIcon /> : <MenuOpenIcon />}
+            </button>
+            <Typography
+              variant="h1"
+              className="font-bold font-Roboto_Slab text-2xl text-black"
+            >
               Miralou
-            </h1>
+            </Typography>
           </div>
 
-          <ul className="flex space-x-6 text-sm text-zinc-500">
+          {/* Typography for larger screens */}
+          <div className="hidden md:block">
+            <Typography
+              variant="h1"
+              className="font-bold font-Roboto_Slab text-2xl text-black"
+            >
+              Miralou
+            </Typography>
+          </div>
+
+          <ul
+            className={`flex justisfy-start flex-col md:flex-row md:flex space-x-6  text-sm text-zinc-500 mt-4  ${
+              isOpenNavbar ? "flex" : "hidden"
+            } md:flex`}
+          >
             <li>
               <Link href="/">Home</Link>
             </li>
@@ -36,14 +65,14 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <div className="icon-items space-x-5 text-zinc-700">
-            <FontAwesomeIcon icon={faMagnifyingGlass} />
+          <div className="icon-items space-x-5 text-zinc-700 mr-4">
+            <SearchIcon />
 
             <Link href="#">
-              <FontAwesomeIcon icon={faHeart} />
+              <FavoriteBorderIcon />
             </Link>
             <Link href="#">
-              <FontAwesomeIcon icon={faCartShopping} />
+              <ShoppingCartOutlinedIcon />
             </Link>
           </div>
         </nav>
