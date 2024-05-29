@@ -6,6 +6,8 @@
 
 export default function Home() {
   return (
-    <div className="text-center pt-10">THIS IS MIRALOU COSMETIC PROJECT</div>
+    <>
+      <div></div>
+    </>
   );
 }

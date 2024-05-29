@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="container md:mx-auto md:max-w-4xl pt-4">
+      <div className="container md:mx-auto md:max-w-5xl pt-4">
         <nav className="flex justify-between items-center">
           {/* left side for mobile view */}
           <div className="flex items-center md:hidden">

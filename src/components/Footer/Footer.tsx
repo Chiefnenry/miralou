@@ -14,7 +14,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 const Footer = () => {
   return (
     <>
-      <div className="footer-container md:mx-auto md:max-w-4xl ml-4 pt-4">
+      <div className="footer-container md:mx-auto md:max-w-5xl ml-4 pt-4">
         <div className="footer flex flex-col md:flex-row justify-between ">
           <div className="footer-wrapper">
             <Typography
@@ -119,10 +119,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <hr className="border-t-2 border-zinc-400 w-auto md:w-auto mr-4" />
+        <hr className="border-t-2 border-zinc-400 w-auto md:w-auto " />
         <div className="flex flex-col md:flex-row justify-between pt-3 pb-3">
           <p className="text-sm text-zinc-700">Copyright &copy; 2022 Miralou</p>
-          <p className="text-sm text-zinc-700 mr-4">All right reserved</p>
+          <p className="text-sm text-zinc-700 ">All right reserved</p>
         </div>
       </div>
     </>

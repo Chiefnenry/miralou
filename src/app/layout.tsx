@@ -3,6 +3,12 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
+import Wishlist from "./pages/WIshlist.tsx/Wishlist";
+import Wishlist_cc from "@/components/Wishlist_c/Wishlist_cc";
+import Wishlist_c from "@/components/Wishlist_c/Wishlist_c";
+import Cart from "./pages/Cart/Cart";
+import Cart_c from "@/components/Cart_c/Cart_c";
+import Cart_cc from "@/components/Cart_c/Cart_cc";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,10 +25,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
+        {/* <Navbar /> */}
+        {/* <Wishlist /> */}
+        {/* <Wishlist_c /> */}
+        {/* <Wishlist_cc /> */}
+        <Cart />
+        {/* <Cart_c /> */}
+        {/* <Cart_cc /> */}
         {children}
+        {/* <Footer /> */}
       </body>
-      <Footer />
     </html>
   );
 }
