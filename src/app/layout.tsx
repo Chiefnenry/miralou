@@ -9,6 +9,8 @@ import Wishlist_c from "@/components/Wishlist_c/Wishlist_c";
 import Cart from "./pages/Cart/Cart";
 import Cart_c from "@/components/Cart_c/Cart_c";
 import Cart_cc from "@/components/Cart_c/Cart_cc";
+import Checkout from "./pages/Checkout/Checkout";
+import Checkout_c from "@/components/Checkout_c/Checkout_c";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,9 +31,16 @@ export default function RootLayout({
         {/* <Wishlist /> */}
         {/* <Wishlist_c /> */}
         {/* <Wishlist_cc /> */}
-        <Cart />
+        {/* <Cart /> */}
         {/* <Cart_c /> */}
         {/* <Cart_cc /> */}
+        <Checkout />
+        {/* <Checkout_c
+          open={false}
+          onClose={function (): void {
+            throw new Error("Function not implemented.");
+          }}
+        /> */}
         {children}
         {/* <Footer /> */}
       </body>
