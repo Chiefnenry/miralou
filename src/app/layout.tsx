@@ -13,6 +13,7 @@ import Checkout from "./pages/Checkout/Checkout";
 import Checkout_c from "@/components/Checkout_c/Checkout_c";
 import Contact from "./pages/Contact/Contact";
 import Faq from "./pages/Faq/Faq";
+import Notfound from "./pages/404/Notfound";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -38,7 +39,8 @@ export default function RootLayout({
         {/* <Cart_cc /> */}
         {/* <Checkout /> */}
         {/* <Contact /> */}
-        <Faq />
+        {/* <Faq /> */}
+        <Notfound />
         {children}
         {/* <Footer /> */}
       </body>
