@@ -72,7 +72,6 @@ const Checkout = () => {
   return (
     <>
       <div className="{isPopup ? 'opacity-50' : 'opacity-100'} md:mx-auto md:max-w-5xl">
-        <Navbar />
         <div className="ml-5 my-10">
           <Typography
             variant="h3"
@@ -85,7 +84,7 @@ const Checkout = () => {
               <TextField
                 variant="outlined"
                 name="firstName"
-                placeholder="First name"
+                label="First name"
                 value={formData.firstName}
                 required
                 className="mb-5"
@@ -93,7 +92,7 @@ const Checkout = () => {
               <TextField
                 variant="outlined"
                 name="lastName"
-                placeholder="Last name"
+                label="Last name"
                 value={formData.lastName}
                 required
                 className="mb-5"
@@ -101,14 +100,14 @@ const Checkout = () => {
               <TextField
                 variant="outlined"
                 name="companyName"
-                placeholder="Company name (optional)"
+                label="Company name (optional)"
                 value={formData.companyName}
                 className="mb-5"
               />
               <TextField
                 variant="outlined"
                 name="country"
-                placeholder="Country"
+                label="Country"
                 value={formData.country}
                 required
                 className="mb-5"
@@ -116,7 +115,7 @@ const Checkout = () => {
               <TextField
                 variant="outlined"
                 name="address"
-                placeholder="Street Address"
+                label="Street Address"
                 value={formData.address}
                 required
                 className="mb-5"
@@ -124,7 +123,7 @@ const Checkout = () => {
               <TextField
                 variant="outlined"
                 name="phone"
-                placeholder="Phone"
+                label="Phone"
                 value={formData.phone}
                 required
                 className="mb-5"
@@ -132,7 +131,7 @@ const Checkout = () => {
               <TextField
                 variant="outlined"
                 name="city"
-                placeholder="City"
+                label="City"
                 value={formData.city}
                 required
                 className="mb-5"
@@ -140,7 +139,7 @@ const Checkout = () => {
               <TextField
                 variant="outlined"
                 name="email"
-                placeholder="Email Address"
+                label="Email Address"
                 value={formData.email}
                 required
                 className="mb-5"
@@ -148,7 +147,7 @@ const Checkout = () => {
               <TextField
                 variant="outlined"
                 name="zipCode"
-                placeholder="Zip Code"
+                label="Zip Code"
                 value={formData.zipCode}
                 required
                 className="mb-5"
@@ -156,7 +155,7 @@ const Checkout = () => {
               <TextField
                 variant="outlined"
                 name="orderNotes"
-                placeholder="Order notes (optional)"
+                label="Order notes (optional)"
                 value={formData.orderNotes}
                 required
               />
@@ -246,7 +245,6 @@ const Checkout = () => {
             </div>
           </div>
         </div>
-        <Footer />
       </div>
     </>
   );

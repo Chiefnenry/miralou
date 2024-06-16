@@ -11,6 +11,8 @@ import Cart_c from "@/components/Cart_c/Cart_c";
 import Cart_cc from "@/components/Cart_c/Cart_cc";
 import Checkout from "./pages/Checkout/Checkout";
 import Checkout_c from "@/components/Checkout_c/Checkout_c";
+import Contact from "./pages/Contact/Contact";
+import Faq from "./pages/Faq/Faq";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -34,13 +36,9 @@ export default function RootLayout({
         {/* <Cart /> */}
         {/* <Cart_c /> */}
         {/* <Cart_cc /> */}
-        <Checkout />
-        {/* <Checkout_c
-          open={false}
-          onClose={function (): void {
-            throw new Error("Function not implemented.");
-          }}
-        /> */}
+        {/* <Checkout /> */}
+        {/* <Contact /> */}
+        <Faq />
         {children}
         {/* <Footer /> */}
       </body>
